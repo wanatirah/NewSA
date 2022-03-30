@@ -15,10 +15,10 @@ import java.util.Set;
 
 public class MainApplication {
 
-    private static TweetsManager tweetsManager = new TweetsManager("IDiPGUUM9otaVYjXqWa2E2K9C"
-            , "66p9f0n9UDQWz2zOWr00FQJwR0LuOHM35tztyU3XVSPE3KTMiF"
-            , "1503187824463409154-fCUZySkLpRIBTmzuUBdY3kIVAm1T2e"
-            , "QGaHJEa1a7She7ZdoVClrDufkbAmtvNNF7zFzeXsBCfFf");
+    private static TweetsManager tweetsManager = new TweetsManager("OAuthConsumerKey"
+            , "OAuthConsumerSecret"
+            , "OAuthAccessToken"
+            , "OAuthAccessTokenSecret");
 
     private static SentimentAnalyzer sentimentAnalyzer = new SentimentAnalyzer();
     private static Gson gson = new GsonBuilder().setPrettyPrinting().create();
