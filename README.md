@@ -38,25 +38,25 @@ Similarity between twitter and tweet 0.4338834285736084
 [facebook, malya, tweet, akaun, hiroyo, tablo, gtbe, followedgtthen, pengikut, briward]
 
 #### LSTM evaluation
-- Evaluating Train: 
+#### Evaluating Train: 
 - Accuracy:        0.8300
 - Precision:       0.8211
 - Recall:          0.8437
 - F1 Score:        0.8323
 
-- Confusion Matrix
+- Confusion Matrix -
 -      0      1
 - 195893  44107 | 0 = Negative
 -  37516 202484 | 1 = Positive
 
 
-- Evaluating Test: 
+#### Evaluating Test: 
 - Accuracy:        0.8097
 - Precision:       0.8224
 - Recall:          0.7901
 - F1 Score:        0.8059
 
--Confusion Matrix
+- Confusion Matrix -
 -     0     1
 - 49762 10238 | 0 = Negative
 - 12597 47403 | 1 = Positive
