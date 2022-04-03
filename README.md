@@ -38,48 +38,32 @@ Similarity between twitter and tweet 0.4338834285736084
 [facebook, malya, tweet, akaun, hiroyo, tablo, gtbe, followedgtthen, pengikut, briward]
 
 #### LSTM evaluation
-================= Evaluating Train: 
-========================Evaluation Metrics========================
+- Evaluating Train: 
  # of classes:    2
  Accuracy:        0.8300
  Precision:       0.8211
  Recall:          0.8437
  F1 Score:        0.8323
-Precision, recall & F1: reported for positive class (class 1 - "Positive") only
 
-
-=========================Confusion Matrix=========================
+- Confusion Matrix
       0      1
 ---------------
  195893  44107 | 0 = Negative
   37516 202484 | 1 = Positive
 
-Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
-==================================================================
-04:49:15.035 [main] DEBUG org.nd4j.linalg.dataset.AsyncDataSetIterator - Manually destroying ADSI workspace
 
-
-================= Evaluating Test: 
-========================Evaluation Metrics========================
+- Evaluating Test: 
  # of classes:    2
  Accuracy:        0.8097
  Precision:       0.8224
  Recall:          0.7901
  F1 Score:        0.8059
-Precision, recall & F1: reported for positive class (class 1 - "Positive") only
 
-
-=========================Confusion Matrix=========================
+-Confusion Matrix
      0     1
 -------------
  49762 10238 | 0 = Negative
  12597 47403 | 1 = Positive
-
-Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
-==================================================================
------ Example complete -----
-
-Process finished with exit code 0
 
 #### Analysis
 : Word2Vec model - The larger the layer size the smaller the distance computed between two similar word
