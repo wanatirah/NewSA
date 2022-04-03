@@ -39,7 +39,6 @@ Similarity between twitter and tweet 0.4338834285736084
 
 #### LSTM evaluation
 - Evaluating Train: 
- # of classes:    2
 - Accuracy:        0.8300
 - Precision:       0.8211
 - Recall:          0.8437
@@ -47,13 +46,11 @@ Similarity between twitter and tweet 0.4338834285736084
 
 - Confusion Matrix
 -      0      1
----------------
 - 195893  44107 | 0 = Negative
 -  37516 202484 | 1 = Positive
 
 
 - Evaluating Test: 
- # of classes:    2
 - Accuracy:        0.8097
 - Precision:       0.8224
 - Recall:          0.7901
@@ -61,7 +58,6 @@ Similarity between twitter and tweet 0.4338834285736084
 
 -Confusion Matrix
 -     0     1
--------------
 - 49762 10238 | 0 = Negative
 - 12597 47403 | 1 = Positive
 
