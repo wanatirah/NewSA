@@ -78,3 +78,6 @@ Similarity between twitter and tweet 0.4338834285736084
 2. Adding LSTM layer --> not much change happening
 3. Adding more epoch, 100 --> performance increase about 80%, adding more than this performance deteriorate.
 Thus, it is safe to say that to achieve more and high performance of the model, more training data is required.
+
+### Credit
+https://www.kaggle.com/code/kerneler/starter-malaysia-twitter-sentiment-65d5c14e-c/data
