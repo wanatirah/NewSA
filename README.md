@@ -27,15 +27,15 @@ word to enable the computer to read and analyse it.
 ##### Word2Vec evaluation
 - vector size: 100 ~chosen
 Similarity between twitter and tweet 0.6123586297035217
-[facebook, akaun, tweet, myspace, fb, gtbe, followedgtthen, malya, kampgampcambffampiltsm, pengikut]
+: [facebook, akaun, tweet, myspace, fb, gtbe, followedgtthen, malya, kampgampcambffampiltsm, pengikut]
 
 - vector size: 200
 Similarity between twitter and tweet 0.5003746151924133
-[facebook, malya, akaun, pengikut, tweet, kampgampcambffampiltsm, briward, gtbe, menautkan, followedgtthen]
+: [facebook, malya, akaun, pengikut, tweet, kampgampcambffampiltsm, briward, gtbe, menautkan, followedgtthen]
 
 - vector size: 300
 Similarity between twitter and tweet 0.4338834285736084
-[facebook, malya, tweet, akaun, hiroyo, tablo, gtbe, followedgtthen, pengikut, briward]
+: [facebook, malya, tweet, akaun, hiroyo, tablo, gtbe, followedgtthen, pengikut, briward]
 
 #### LSTM evaluation
 #### Evaluating Train: 
@@ -44,7 +44,7 @@ Similarity between twitter and tweet 0.4338834285736084
 - Recall:          0.8437
 - F1 Score:        0.8323
 
-- Confusion Matrix -
+##### Confusion Matrix -
 -      0      1
 - 195893  44107 | 0 = Negative
 -  37516 202484 | 1 = Positive
@@ -56,7 +56,7 @@ Similarity between twitter and tweet 0.4338834285736084
 - Recall:          0.7901
 - F1 Score:        0.8059
 
-- Confusion Matrix -
+##### Confusion Matrix -
 -     0     1
 - 49762 10238 | 0 = Negative
 - 12597 47403 | 1 = Positive
@@ -72,7 +72,7 @@ Similarity between twitter and tweet 0.4338834285736084
   prediction against all predicted result. However, F1 score is still better than accuracy as it works better
   with imbalance dataset which is always is the case for real-time data.
 
-##### Training model process
+#### Training model process
 1. Using only about 1,000 tweets --> underfitting at about 30%
    *Solution : Adding more data about 600,000 tweets --> performance improve to about 70% with 10 epoch
 2. Adding LSTM layer --> not much change happening
