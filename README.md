@@ -10,8 +10,8 @@ The flow of this project:
    to obtain the necessary credentials to access the api
 3. Build and inference class to connect the twitter4j and dl4j. Therefore, new tweets can be predicted as 
    either positive or negative.
-4. Apply Spring Boot to send the result to the web page http://localhost:8080/
-5. Build the frontend page using reactjs. The origin web for reactjs is http://localhost:3000/
+4. Apply Spring Boot to send the result to the web page.
+5. Build the frontend page using reactjs.
 
 ### DL4J
 - The model built is LSTM, Long Short Term Memory model. LSTM is the popular choice when it comes to 
