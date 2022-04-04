@@ -25,9 +25,9 @@ connection between each word in a sentence and this connection is fed into lstm 
 word to enable the computer to read and analyse it.
 
 ##### Word2Vec evaluation
-- vector size: 100 ~chosen
-++ Similarity between twitter and tweet 0.6123586297035217
-++ [facebook, akaun, tweet, myspace, fb, gtbe, followedgtthen, malya, kampgampcambffampiltsm, pengikut]
+- vector size: 100 ~chosen\n 
+Similarity between twitter and tweet 0.6123586297035217 \n
+[facebook, akaun, tweet, myspace, fb, gtbe, followedgtthen, malya, kampgampcambffampiltsm, pengikut]
 
 - vector size: 200
 Similarity between twitter and tweet 0.5003746151924133
